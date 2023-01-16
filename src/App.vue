@@ -5,6 +5,8 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+//目前进度
+//https://www.bilibili.com/video/BV1QA4y1d7xf?p=6&spm_id_from=pageDriver&vd_source=b3b090d94cf21e58e86824532f45ccdd
 
 export default {
   name: 'App',
