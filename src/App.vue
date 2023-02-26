@@ -1,17 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!--  <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+  <TemplateSyntax/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import TemplateSyntax from './components/TemplateSyntax.vue'
 //目前进度
-//https://www.bilibili.com/video/BV1QA4y1d7xf?p=6&spm_id_from=pageDriver&vd_source=b3b090d94cf21e58e86824532f45ccdd
+// https://www.bilibili.com/video/BV1QA4y1d7xf?p=7&vd_source=b3b090d94cf21e58e86824532f45ccdd
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TemplateSyntax
   }
 }
 </script>
